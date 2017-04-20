@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sites>
+	<site>
+		<title>顶点小说</title>
+		<charset>GBK</charset>
+		<url>http://www.23us.com</url>
+		<chapter-list selector="">#at td a</chapter-list>
+		<chapter-detail-title>#amain h1,0</chapter-detail-title>
+		<chapter-detail-content>#contents</chapter-detail-content>
+		<chapter-detail-pre>#footlink a,0</chapter-detail-pre>
+		<chapter-detail-next>#footlink a,2</chapter-detail-next>
+	</site>
+	<site>
+		<title>笔趣阁</title>
+		<charset>UTF-8</charset>
+		<url>http://www.biquge.com</url>
+		<chapter-list selector="">#list dl dd a</chapter-list>
+		<chapter-detail-title>.bookname h1,0</chapter-detail-title>
+		<chapter-detail-content>#content</chapter-detail-content>
+		<chapter-detail-pre>.bottem1 a,0</chapter-detail-pre>
+		<chapter-detail-next>.bottem1 a,2</chapter-detail-next>
+	</site>
+	<site>
+		<title>笔下文学</title>
+		<charset>gbk</charset>
+		<url>http://www.bxwx9.org/</url>
+		<chapter-list selector="">#TabCss dl dd a</chapter-list>
+		<chapter-detail-title>#title</chapter-detail-title>
+		<chapter-detail-content>#content</chapter-detail-content>
+		<chapter-detail-pre>#footlink a,2</chapter-detail-pre>
+		<chapter-detail-next>#footlink a,4</chapter-detail-next>
+		<novel-selector>.grid tr</novel-selector>
+		<novel-nextPage-selector>#pagelink .next</novel-nextPage-selector>
+	</site>
+	<site>
+		<title>看书中</title>
+		<charset>gbk</charset>
+		<url>http://www.kanshuzhong.com</url>
+		<chapter-list selector="">.bookcontent dl dd a</chapter-list>
+		<chapter-detail-title>.ctitle</chapter-detail-title>
+		<chapter-detail-content>.textcontent</chapter-detail-content>
+		<chapter-detail-pre>.readlink a,1</chapter-detail-pre>
+		<chapter-detail-next>.readlink a,3</chapter-detail-next>
+		<novel-selector>.book_list tr</novel-selector>
+		<novel-nextPage-selector>#pagelink .next</novel-nextPage-selector>
+	</site> 
+</sites>
